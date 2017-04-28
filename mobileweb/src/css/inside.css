@@ -1,0 +1,42 @@
+.sidebar{padding: 20px 20px 0; display: block;}
+.topMenu{}
+.topMenu ul{}
+.topMenu ul li{width: 31.33%; height: 30px; background: #0d6fb4; text-align: center; line-height: 30px;  margin: 0 1% 10px; border-radius: 15px; float: left;}
+.topMenu ul li a{color: white; display: block;}
+
+.comTit{height: 34px; background: #0d6fb4; }
+.comTit h3{line-height: 34px; color: white; font-size: 18px; padding-left: 10px; font-weight: normal;}
+.article{padding: 0 2%;}
+.article .con{padding:20px 8px; line-height: 22px; font-size: 14px; color: #494949;}
+.article .con h3{text-align: center; line-height: 40px;}
+.hr{padding: 0 2%;}
+.hrMes{line-height: 30px; color:#504F4F; font-size: 18px; padding:10px 20px;}
+.hr{padding: 20px 2%;}
+.job{}
+.job h3{line-height: 30px; color: #0d6fb4; font-size: 20px; border-bottom: 2px solid #0d6fb4;}
+.job ul{}
+.job ul li{width: 100%; border-bottom: 1px solid #ebeef0;}
+.job ul li:last-child{border-bottom: none;}
+.job ul li:hover{background: #f3f4f4;}
+.job ul li h4{font-size: 16px; font-weight: normal; height: 50px; line-height: 50px; color: #575757; cursor: pointer; padding-left: 20px;}
+.job ul li .jobContent{ display: none; padding: 20px; overflow: hidden;}
+.job ul li.open .jobContent{ }
+.job ul li.open h4{border-bottom: 1px dashed #d8dadb;}
+.job ul li .jobContent span{line-height:30px; font-size: 16px; color: #0D6FB4;}
+.job ul li .jobContent p{line-height: 22px; font-size: 14px; color: #747576; font-family: "微软雅黑";}
+
+
+.contact{padding: 20px 2%;}
+.contactMes{color: #4b4a4a; line-height: 24px; font-size: 16px; margin-bottom: 30px; padding: 10px;}
+.contactMes h3{line-height: 40px;}
+.contactMes .map{padding-left: 10px; font-size: 22px; color:red;}
+
+
+.picList{padding: 20px 2%;}
+.picList .bd{ position: relative; padding: 20px 0;}
+.picList .bd ul{}
+.picList .bd ul li{width:96%;  margin:0 2% 20px; float: left; position: relative; overflow: hidden; }
+.picList .bd ul li .img{width:100%; height:auto;}
+.picList .bd ul li .img img{width:100%; height:auto;}
+.picList .bd ul li .con{width:100%; height:40px; background-color: rgba(0,0,0,0.5); position: absolute; left: 0; bottom: 0;}
+.picList .bd ul li .con h4{line-height: 40px; text-align: center; color: white; margin-bottom: 20px;}

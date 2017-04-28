@@ -1,0 +1,56 @@
+.header{background-color: white!important; height: 80px!important; box-shadow:0 0 3px #e8e8e8!important;}
+.header .nav ul li a{color:black!important;}
+.header .logo{padding-top: 14px!important;}
+.header .logo h1{color: black;}
+.header .nav ul li{height: 80px!important; line-height: 80px!important;}
+.banner{height: 400px!important;}
+
+.wrap{padding-top: 30px;}
+.sidebar .title{height: 40px;display: none;}
+.sidebar .title b{font-size: 22px; font-weight: normal;}
+.sidebar .title span{font-size: 18px; font-weight: normal;}
+.menu{width:100%; height: 34px;   margin-bottom: 30px;}
+.menu ul li{float: left; width: 21%; height: 34px; margin: 0 2%;}
+.menu ul li a{display: block; text-align: center; line-height: 32px; width: 100%; height: 34px; color: black; border-radius: 17px;  border: 1px solid #FFAA00; box-sizing: content-box;}
+.menu ul li:hover a,.menu ul li.current a{color:black; background: #FFAA00; }
+
+.breadcrumb{width: 100%; max-width: 1200px; margin: 0 auto; height: 40px; line-height: 40px; margin-bottom: 20px; border-bottom: 1px solid #dfdede; color: #535252;}
+.breadcrumb h3{display: inline-block; float: left; font-size: 20px; color:#767575; font-weight: normal;}
+.breadcrumb .mainNav{display: inline-block; float: right;}
+.breadcrumb .mainNav a{color: #535252; font-size: 14px;}
+.breadcrumb .mainNav a.home{padding-left: 20px; background: url(../img/home.png) 0 center no-repeat;}
+.breadcrumb .mainNav a:hover{color:#FF6600;}
+.intro{background: #f1f2f2; padding: 30px;}
+.intro .left{width: 48%; padding-right: 2%; float: left; color: #87898a; line-height: 24px; } 
+.intro .left h3{line-height: 36px; font-size: 20px; color: #797a7a; margin-bottom: 20px; font-weight: normal;}
+.intro .left p{font-size: 14px;}
+.intro .right{width: 50%; float: right; box-sizing: border-box;}
+
+
+.contact{padding: 30px 0 50px;}
+.contactMes{color: #4b4a4a; line-height: 24px; font-size: 16px; margin-bottom: 40px;}
+.contactMes h3{line-height: 40px;}
+
+.hrMes{line-height: 50px; color:#504F4F; font-size: 18px; padding: 20px;}
+.job{margin-bottom: 30px;}
+.job h3{line-height: 40px; color: #0d6fb4; font-size: 20px; border-bottom: 2px solid #0d6fb4;}
+.job ul{}
+.job ul li{width: 100%; border-bottom: 1px solid #ebeef0;}
+.job ul li:last-child{border-bottom: none;}
+.job ul li:hover{background: #f3f4f4;}
+.job ul li h4{font-size: 16px; font-weight: normal; height: 50px; line-height: 50px; color: #575757; cursor: pointer; padding-left: 20px;}
+.job ul li .jobContent{ display: none; padding: 20px;padding-left: 40px; overflow: hidden;}
+.job ul li.open .jobContent{ }
+.job ul li.open h4{border-bottom: 1px dashed #d8dadb;}
+.job ul li .jobContent span{line-height:30px; font-size: 16px; color: #0D6FB4;}
+.job ul li .jobContent pre{line-height: 22px; font-size: 14px; color: #747576; font-family: "微软雅黑";}
+
+
+.picList{padding:20px 0 40px;}
+.picList ul{}
+.picList ul li{width: 278px; margin: 0 10px 30px; float: left; border: 1px solid #c8c7c7; transition: .3s; position: relative;}
+.picList ul li .img{width: 100%; height: 240px;}
+.picList ul li .img img{width: 100%; height: 240px;}
+.picList ul li p.title{line-height: 40px; text-align: center; color: #575757; transition: .3s;}
+.picList ul li:hover{box-shadow: 0 10px 30px #acabab; margin-top: -6px; border: 1px solid #0d6fb4;}
+.picList ul li:hover p.title{background: #0d6fb4; color: white;}
